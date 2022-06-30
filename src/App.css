@@ -1,0 +1,99 @@
+.App{
+  background-color: black;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.main{
+  padding-top: 120px;
+  background-color: black;
+
+}
+h1{
+  color: white;
+  text-align: center;
+}
+h2{
+  color: white;
+  padding-top: 30px;
+}
+h3{
+  color: white;
+  font-size: 24px;
+}
+p{
+  color: white;
+}
+.category{
+  padding-top: 160px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.score-section {
+  font-size: 24px;
+  padding-bottom: 100px;
+}
+
+/* QUESTION/TIMER/LEFT SECTION */
+.question-section {
+  width: 100%;
+  position: relative;
+
+}
+
+.question-count {
+  margin-bottom: 20px;
+}
+
+.question-count span {
+  font-size: 28px;
+}
+
+.question-text {
+  margin-bottom: 12px;
+  color: white;
+}
+
+
+/* ANSWERS/RIGHT SECTION */
+.answer-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 150px;
+}
+
+button {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid #002f5f;
+  cursor: pointer;
+}
+
+.correct {
+  background-color: #2f922f;
+}
+
+.incorrect {
+  background-color: #ff3333;
+}
+
+button:hover {
+  background-color: #555e7d;
+}
+
+button:focus {
+  outline: none;
+}
+
+button svg {
+  margin-right: 5px;
+}
